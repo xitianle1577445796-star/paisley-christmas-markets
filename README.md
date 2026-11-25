@@ -39,21 +39,11 @@ The application uses a decoupled, HTTPS-secured cloud architecture with automate
 - `GET /api/traders` — Retrieve approved public traders for the directory and map
 - `POST /api/applications` — Submit a new trader stall application (locks chalet as `Pending`)
 - `DELETE /api/gdpr/erase` — Self-service GDPR Right to Erasure for trader records
-
----
-
 ## 5. Local Development Setup
 
-### Step 1: Install Dependencies
-Run the following command in the project root directory:
-```bash
-npm run install:all
-Step 2: Start Backend Server (Terminal 1)
-Bash
-npm run dev:server
-Runs on http://localhost:5000
-
-Zero-Config Database: If MONGODB_URI is not set in server/.env, the server automatically falls back to a persistent local JSON database (server/data/local-db.json) for immediate testing. To connect to MongoDB Atlas, copy server/.env.example to server/.env and add your Atlas URI.
+- **Step 1 — Install Dependencies:** Run `npm run install:all` in the project root directory.
+- **Step 2 — Start Backend Server (Terminal 1):** Run `npm run dev:server` (runs on `http://localhost:5000`; automatically falls back to `server/data/local-db.json` if `MONGODB_URI` is not set).
+- **Step 3 — Start Frontend App (Terminal 2):** Run `npm run dev:client` (runs on `http://localhost:5173`).
 
 Step 3: Start Frontend App (Terminal 2)
 Bash
