@@ -1,0 +1,13 @@
+{
+  "name": "paisley-christmas-markets-poc",
+  "version": "1.0.0",
+  "description": "COMP10020 Coursework 2 - White-Label Seasonal Event & Paisley Christmas Markets Proof-of-Concept",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client",
+    "start": "npm start --prefix server"
+  }
+}

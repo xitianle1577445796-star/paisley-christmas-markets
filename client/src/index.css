@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ui-brightness: 1;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-parchment-100 text-stone-900 dark:bg-pine-950 dark:text-parchment-100 transition-colors duration-300;
+  }
+}
+
+.brightness-stage {
+  filter: brightness(var(--ui-brightness));
+  transition: filter 180ms ease;
+}
+
+/* Luxury Champagne Gold-Foil Gradient Text */
+.text-gold-foil {
+  background: linear-gradient(135deg, #F5E2B8 0%, #C9A66B 48%, #EFE0BC 75%, #B58B47 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtle Paisley teardrop watermark pattern */
+.paisley-watermark {
+  background-image: url("data:image/svg+xml,%3Csvg width='140' height='140' viewBox='0 0 140 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M70 20c20 0 36 18 36 40 0 25-18 48-38 52-14 3-28-6-30-20-2-11 6-20 16-20 8 0 14 6 13 13-1 6-7 9-12 7' fill='none' stroke='%23C9A66B' stroke-width='1' stroke-opacity='0.09'/%3E%3Ccircle cx='68' cy='52' r='6' fill='none' stroke='%23C9A66B' stroke-width='0.9' stroke-opacity='0.09'/%3E%3C/svg%3E");
+}
+
+/* Museum-grade translucent glass with crisp legible borders in both Day & Night modes */
+.glass-card {
+  @apply bg-white/65 dark:bg-pine-900/50 backdrop-blur-xl border border-stone-900/15 dark:border-[#C9A66B]/25 shadow-[0_10px_34px_rgb(0,0,0,0.07)] dark:shadow-[0_14px_44px_rgb(0,0,0,0.42)];
+}
+
+.glass-pill {
+  @apply bg-white/75 dark:bg-white/[0.07] backdrop-blur-md border border-stone-900/15 dark:border-[#C9A66B]/30;
+}
+
+@keyframes slow-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes reverse-spin {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+@keyframes warm-twinkle {
+  0%, 100% { opacity: 0.45; }
+  50% { opacity: 1; }
+}
+
+.animate-slow-spin {
+  animation: slow-spin 46s linear infinite;
+}
+
+.animate-reverse-spin {
+  animation: reverse-spin 64s linear infinite;
+}
+
+.animate-twinkle {
+  animation: warm-twinkle 3.2s ease-in-out infinite;
+}

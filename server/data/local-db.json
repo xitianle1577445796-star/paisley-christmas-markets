@@ -1,0 +1,197 @@
+{
+  "config": {
+    "key": "active",
+    "presetKey": "paisley_christmas",
+    "brandName": "Paisley Winter Fair",
+    "eventTitle": "Paisley Christmas Markets",
+    "tagline": "Artisan Craft, Mulled Spice & Heritage Beneath the Abbey",
+    "location": "Paisley Abbey & County Square, Renfrewshire",
+    "dates": "27 Nov — 24 Dec 2026",
+    "openingHours": "Daily 11:00 — 21:00 (Fri–Sat until 22:00)",
+    "heroHeadline": "Winter Magic Woven in Paisley",
+    "heroSubheadline": "Discover 12 curated timber chalets of Scottish gastronomy, handcrafted woollens, and festive music framed by the historic 12th-century Paisley Abbey.",
+    "theme": {
+      "accent": "#C9A66B",
+      "secondary": "#6B1D2A",
+      "surfaceDark": "#0D1F1A",
+      "badgeText": "2026 Heritage Edition"
+    }
+  },
+  "chalets": [
+    {
+      "code": "A1",
+      "zone": "Abbey Gastronomy Row",
+      "category": "Food & Drink",
+      "size": "4m x 3m",
+      "fee": 650,
+      "utilities": [
+        "32A Power",
+        "Fresh Water",
+        "Waste"
+      ],
+      "x": 115,
+      "y": 120,
+      "status": "available"
+    },
+    {
+      "code": "A2",
+      "zone": "Abbey Gastronomy Row",
+      "category": "Food & Drink",
+      "size": "4m x 3m",
+      "fee": 650,
+      "utilities": [
+        "32A Power",
+        "Fresh Water"
+      ],
+      "x": 235,
+      "y": 120,
+      "status": "booked"
+    },
+    {
+      "code": "A3",
+      "zone": "Abbey Gastronomy Row",
+      "category": "Food & Drink",
+      "size": "4m x 3m",
+      "fee": 650,
+      "utilities": [
+        "32A Power",
+        "Fresh Water"
+      ],
+      "x": 355,
+      "y": 120,
+      "status": "available"
+    },
+    {
+      "code": "A4",
+      "zone": "Abbey Gastronomy Row",
+      "category": "Food & Drink",
+      "size": "4m x 3m",
+      "fee": 680,
+      "utilities": [
+        "32A Power",
+        "Fresh Water",
+        "Corner Pitch"
+      ],
+      "x": 475,
+      "y": 120,
+      "status": "available"
+    },
+    {
+      "code": "B1",
+      "zone": "Paisley Loom Artisan Quarter",
+      "category": "Artisan & Crafts",
+      "size": "3m x 3m",
+      "fee": 450,
+      "utilities": [
+        "16A Power",
+        "Ambient Lighting"
+      ],
+      "x": 115,
+      "y": 270,
+      "status": "available"
+    },
+    {
+      "code": "B2",
+      "zone": "Paisley Loom Artisan Quarter",
+      "category": "Artisan & Crafts",
+      "size": "3m x 3m",
+      "fee": 450,
+      "utilities": [
+        "16A Power",
+        "Ambient Lighting"
+      ],
+      "x": 235,
+      "y": 270,
+      "status": "available"
+    },
+    {
+      "code": "B3",
+      "zone": "Paisley Loom Artisan Quarter",
+      "category": "Artisan & Crafts",
+      "size": "3m x 3m",
+      "fee": 450,
+      "utilities": [
+        "16A Power",
+        "Ambient Lighting"
+      ],
+      "x": 355,
+      "y": 270,
+      "status": "available"
+    },
+    {
+      "code": "B4",
+      "zone": "Paisley Loom Artisan Quarter",
+      "category": "Artisan & Crafts",
+      "size": "3m x 3m",
+      "fee": 450,
+      "utilities": [
+        "16A Power",
+        "Ambient Lighting"
+      ],
+      "x": 475,
+      "y": 270,
+      "status": "available"
+    },
+    {
+      "code": "C1",
+      "zone": "County Square Promenade",
+      "category": "Gifts & Heritage",
+      "size": "3m x 2.5m",
+      "fee": 520,
+      "utilities": [
+        "16A Power",
+        "High Footfall"
+      ],
+      "x": 155,
+      "y": 405,
+      "status": "available"
+    },
+    {
+      "code": "C2",
+      "zone": "County Square Promenade",
+      "category": "Gifts & Heritage",
+      "size": "3m x 2.5m",
+      "fee": 520,
+      "utilities": [
+        "16A Power",
+        "High Footfall"
+      ],
+      "x": 295,
+      "y": 405,
+      "status": "available"
+    },
+    {
+      "code": "C3",
+      "zone": "County Square Promenade",
+      "category": "Seasonal & Floristry",
+      "size": "3m x 2.5m",
+      "fee": 520,
+      "utilities": [
+        "16A Power",
+        "High Footfall"
+      ],
+      "x": 435,
+      "y": 405,
+      "status": "available"
+    }
+  ],
+  "traders": [
+    {
+      "id": "TRD-2026-1054",
+      "referenceCode": "PCM-1490",
+      "businessName": "天乐",
+      "contactName": "奚",
+      "email": "1577445796@qq.com",
+      "phone": "",
+      "category": "Food & Drink",
+      "chaletCode": "A2",
+      "description": "fffff",
+      "signatureItem": "Seasonal Artisan Specialty",
+      "hygieneCertified": true,
+      "publicLiabilityInsurance": true,
+      "gdprConsent": true,
+      "status": "approved",
+      "createdAt": "2026-11-25T21:50:01.054Z"
+    }
+  ]
+}
