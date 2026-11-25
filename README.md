@@ -45,7 +45,4 @@ The application uses a decoupled, HTTPS-secured cloud architecture with automate
 - **Step 2 — Start Backend Server (Terminal 1):** Run `npm run dev:server` (runs on `http://localhost:5000`; automatically falls back to `server/data/local-db.json` if `MONGODB_URI` is not set).
 - **Step 3 — Start Frontend App (Terminal 2):** Run `npm run dev:client` (runs on `http://localhost:5173`).
 
-Step 3: Start Frontend App (Terminal 2)
-Bash
-npm run dev:client
-Runs on http://localhost:5173
+
